@@ -1,0 +1,158 @@
+
+#title {
+  -fx-text-fill: #3e7e2f;
+  -fx-font-size: 40px;
+  -fx-font-weight: bold;
+}
+
+#ingredient-label {
+  -fx-text-fill: #f8d485;
+  -fx-font-size: 30px;
+  -fx-font-weight: bold;
+}
+
+#tags-label {
+  -fx-background-color: #3e7e2f;
+  -fx-background-radius: 12px;
+  -fx-text-fill: #f8d485;
+  -fx-font-size: 30px;
+  -fx-font-weight: bold;
+  -fx-border-width: 3px;
+  -fx-border-radius: 10px;
+}
+
+#scroll-box {
+  -fx-background: transparent;
+  -fx-background-color: transparent;
+}
+
+#counter-ingredient {
+  -fx-text-fill: #f8d485;
+  -fx-font-size: 25px;
+  -fx-font-weight: bold;
+}
+
+#ingredients-box {
+  -fx-background-color: #f8d485;
+  -fx-background-radius: 12px;
+  -fx-border-color: #3e7e2f;
+  -fx-border-width: 3px;
+  -fx-border-radius: 10px;
+}
+
+#wrapper-img {
+  -fx-border-width: 7px;
+  -fx-border-color: #3e7e2f;
+  -fx-border-style: solid;
+  -fx-border-radius: 10px;
+}
+
+#add-img-box {
+  -fx-background-color: #f8d485;
+  -fx-background-radius: 15px;
+  -fx-border-width: 7px;
+  -fx-border-color: #3e7e2f;
+  -fx-border-style: solid;
+  -fx-border-radius: 10px;
+}
+
+#add-img-box:hover {
+  -fx-border-color: #135131;
+}
+
+#add-img-label {
+ -fx-text-fill: #3e7e2f;
+ -fx-font-weight: bold;
+ -fx-font-size: 13px;
+}
+
+#title-ingredeint-box {
+  -fx-background-color: #3e7e2f;
+}
+
+#remove-img-btn {
+  -fx-background-color: #135131;
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+}
+
+#remove-img-btn:hover {
+  -fx-background-color: #103f27;
+}
+
+#add-recipe-btn {
+  -fx-background-color: #135131;
+  -fx-text-fill: #f8d485;
+  -fx-font-size: 20px;
+  -fx-font-weight: bold;
+  -fx-background-radius: 15px;
+}
+
+#add-recipe-btn:hover {
+  -fx-background-color: #103f27;
+}
+
+#return-btn {
+  -fx-background-color: #135131;
+  -fx-text-fill: #f8d485;
+  -fx-font-size: 20px;
+  -fx-font-weight: bold;
+  -fx-background-radius: 15px;
+}
+
+#return-btn:hover {
+  -fx-background-color: #103f27;
+}
+
+#yields-box {
+  -fx-background-color: #3e7e2f;
+  -fx-background-radius: 10px;
+}
+
+#yields-label {
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+  -fx-font-size: 20px;
+}
+
+#counter-yields {
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+  -fx-font-size: 20px;
+}
+
+
+.button-tag {
+  -fx-background-color: #3e7e2f;
+  -fx-text-fill: #f8d485;
+  -fx-font-size: 16px;
+  -fx-font-weight: bolder;
+  -fx-background-radius: 15; 
+}
+
+.button-tag:hover {
+  -fx-background-color: #EBB643;
+  -fx-text-fill: #289920;
+  
+}
+
+.button-tag:selected {
+  -fx-background-color: #EBB643;
+  -fx-text-fill: #289920;
+}
+
+.scroll-bar:vertical {
+  -fx-background-color: #3e7e2f;
+}
+
+.scroll-bar:vertical .thumb {
+  -fx-background-color: #135131;
+}
+
+.scroll-bar:vertical .decrement-button, .increment-button {
+  -fx-background-color: #f8d485;
+}
+
+.scroll-bar:vertical .decrement-arrow, .increment-arrow {
+  -fx-background-color: #135131;
+}

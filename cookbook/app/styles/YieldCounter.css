@@ -1,0 +1,30 @@
+
+#yield-counter {
+  -fx-background-color: #f8d485;
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+}
+
+.button {
+  -fx-background-radius: 0px;
+  -fx-background-insets: 0, 0, 0, 0;
+  -fx-background-color: #135131;
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+  -fx-font-size: 20px;
+  -fx-focus-color: transparent;
+}
+
+.button:hover {
+  -fx-background-color: #103f27;
+}
+
+.button:focused {
+  -fx-background-insets: 0, 0, 0, 0;
+}
+
+#yield-counter-recipe-view {
+  -fx-background-color: #3e7e2f;
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+}

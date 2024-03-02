@@ -1,0 +1,21 @@
+/* #root {
+  -fx-background-color: #3e7e2f;
+  -fx-background-radius: 10px;
+} */
+
+#name-label {
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+  -fx-font-size: 15px;
+}
+
+#unit-label, #amount-label {
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+  -fx-font-size: 15px;
+}
+
+#amount-unit-box {
+  -fx-background-color: #3e7e2f;
+  -fx-background-radius: 10px;
+}

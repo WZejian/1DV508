@@ -1,0 +1,9 @@
+.table-row-cell:empty {
+  -fx-background-color: transparent;
+}
+
+
+.button {
+  -fx-background-color: #845b46;
+  -fx-text-fill: #FFE4C4;
+}

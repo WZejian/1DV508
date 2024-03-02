@@ -1,0 +1,25 @@
+.root {
+    background-color: #B88453;
+}
+
+#splash {
+    -fx-background-image: url("../img/splash.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+/* Main Menu left-bar button  */
+.button-menu-bar {
+    -fx-background-color: #135131;
+    -fx-text-fill: #f8d485;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15; 
+}
+
+.button-menu-bar:hover {
+    -fx-background-color: #f8d485;
+    -fx-text-fill: #289920;
+    
+}

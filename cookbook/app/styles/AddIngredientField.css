@@ -1,0 +1,40 @@
+
+#root {
+  -fx-background-color: #3e7e2f;
+}
+
+#or-label {
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+  -fx-font-size: 15px;
+}
+
+#create-ingredient-btn {
+  -fx-background-color: #135131;
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+}
+
+#create-ingredient-btn:hover {
+  -fx-background-color: #103f27;
+}
+
+#combo-box {
+  -fx-background-color: #135131;
+}
+
+#combo-box .list-cell {
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+}
+
+#combo-box .list-view .list-cell {
+  -fx-background-color: #f8d485;
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+}
+
+#combo-box .list-view .list-cell:hover {
+  -fx-background-color: #135131;
+  -fx-text-fill: #f8d485;
+}

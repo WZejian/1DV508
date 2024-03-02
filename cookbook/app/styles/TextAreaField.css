@@ -1,0 +1,13 @@
+
+#count {
+  -fx-background-color: #3e7e2f;
+  -fx-background-radius: 50px;
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+  -fx-font-size: 10px;
+}
+
+#text {
+  -fx-font-weight: bold;
+  -fx-font-size: 15px;
+}

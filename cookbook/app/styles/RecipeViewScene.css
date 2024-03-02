@@ -1,0 +1,119 @@
+
+#recipe-name-label {
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+  -fx-font-size: 50px;
+}
+
+/* Headings */
+#ingredient-label, #instructions-label,
+#short-desc-label, #endnote-label,
+#comments-label {
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+  -fx-font-size: 30px;
+}
+
+#scroll-box {
+  -fx-background: transparent;
+  -fx-background-color: transparent;
+}
+
+#top-box {
+  -fx-background-color: rgba(248, 212, 133, 0.7);
+  /* -fx-background-color: rgba(62, 126, 47, 0.7); */
+
+  -fx-background-radius: 10px;
+  -fx-border-color: #3e7e2f;
+  -fx-border-width: 3px;
+  -fx-border-radius: 10px;
+}
+
+#date-box {
+  -fx-background-color: #3e7e2f;
+  -fx-background-radius: 10px;
+}
+
+#date-label {
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+  -fx-font-size: 20px;
+}
+
+#date {
+  -fx-background-color: #f8d485;
+  -fx-background-radius: 10px;
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+}
+
+#tag-label {
+  -fx-background-color: #f8d485;
+  -fx-background-radius: 10px;
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+  -fx-font-size: 20px;
+}
+
+/* #tag-box {
+  -fx-background-color: #3e7e2f;
+  -fx-background-radius: 10px;
+} */
+
+#short-desc {
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+  -fx-font-size: 15px;
+}
+
+#step-label {
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+  -fx-font-size: 15px;
+}
+
+#endnote-label {
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+  -fx-font-size: 15px;
+}
+
+/* #yield-box {
+  -fx-background-color: #3e7e2f;
+  -fx-background-radius: 10px;
+} */
+
+#yield-label {
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+  -fx-font-size: 22px;
+}
+
+#delete-button {
+  -fx-background-color: #700000;
+  -fx-font-size: 17px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #f8d485;
+  -fx-background-radius: 10px;
+}
+
+#delete-button:hover {
+  -fx-background-color: #f8d485;
+  -fx-text-fill: #d80e0e;
+}
+
+.scroll-bar:vertical {
+  -fx-background-color: #3e7e2f;
+}
+
+.scroll-bar:vertical .thumb {
+  -fx-background-color: #135131;
+}
+
+.scroll-bar:vertical .decrement-button, .increment-button {
+  -fx-background-color: #f8d485;
+}
+
+.scroll-bar:vertical .decrement-arrow, .increment-arrow {
+  -fx-background-color: #135131;
+}

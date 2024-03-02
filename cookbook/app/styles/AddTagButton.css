@@ -1,0 +1,33 @@
+.text-field {
+  -fx-border-width: 2px;
+  -fx-border-color: #3e7e2f;
+  -fx-border-style: solid;
+  -fx-border-radius: 3px;
+  -fx-background-color: #f8d485;
+  -fx-prompt-text-fill: #3e7e2f;
+  -fx-text-fill: #3e7e2f;
+  -fx-font-size: 11px;
+  -fx-font-weight: bold;
+}
+.text-field:focused {
+	-fx-background-color: #f8d485;
+}
+
+.button-tag {
+  -fx-background-color: #3e7e2f;
+  -fx-text-fill: #f8d485;
+  -fx-font-size: 16px;
+  -fx-font-weight: bolder;
+  -fx-background-radius: 15; 
+}
+
+.button-tag:hover {
+  -fx-background-color: #EBB643;
+  -fx-text-fill: #289920;
+  
+}
+
+.button-tag:selected {
+  -fx-background-color: #EBB643;
+  -fx-text-fill: #289920;
+}

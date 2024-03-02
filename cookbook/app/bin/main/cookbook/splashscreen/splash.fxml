@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #B88453;" stylesheets="@../../../../../styles/MainMenu.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button mnemonicParsing="false" text="Button" />
+      <ImageView fitHeight="800.0" fitWidth="1154.0" onMouseClicked="#callLogin" pickOnBounds="true" preserveRatio="true" HBox.hgrow="NEVER">
+         <image>
+            <Image url="@../../../../../img/splash.gif" />
+         </image>
+         <HBox.margin>
+            <Insets left="63.0" />
+         </HBox.margin>
+      </ImageView>
+   </children>
+</HBox>

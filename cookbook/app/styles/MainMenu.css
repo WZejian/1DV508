@@ -1,0 +1,99 @@
+.root {
+    
+}
+
+#left-side {
+    -fx-background-color: #86ab56;
+    -fx-border-color: #3e7e2f;
+    -fx-border-width: 0 5 0 0;
+}
+
+#top-bar {
+    -fx-background-color: #135131;
+}
+
+#bottom-bar {
+    -fx-background-color: #135131;
+}
+
+#login-status {
+    -fx-background-color: #f8d485;
+    -fx-text-fill: #135131;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px 10px 0px 0px;
+}
+
+#user-logged-in {
+    -fx-background-color: #15683d;
+    -fx-text-fill: #f8d485;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 0px 0px 10px 10px;
+}
+
+#logout-button {
+    -fx-background-color: #f8d485;
+    -fx-text-fill: #135131;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+}
+
+#message-button {
+    -fx-background-color: #f8d485;
+    -fx-text-fill: #135131;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+}
+
+#message-button-alert {
+    -fx-background-color: #f8d485;
+    -fx-text-fill: #135131;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+}
+
+#logout-button:hover {
+    -fx-background-color: #289920;
+    -fx-text-fill: #f8d485;
+}
+
+#message-button:hover {
+    -fx-background-color: #289920;
+    -fx-text-fill: #f8d485;
+}
+
+#message-button-alert:hover {
+    -fx-background-color: #289920;
+    -fx-text-fill: #f8d485;
+}
+
+#right-side {
+    -fx-background-image: url("../img/MainMenu/main_menu_background.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+/* Main Menu left-bar button  */
+.button-menu-bar {
+    -fx-background-color: #135131;
+    -fx-text-fill: #f8d485;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15; 
+}
+
+.button-menu-bar:hover {
+    -fx-background-color: #f8d485;
+    -fx-text-fill: #289920;
+    
+}
+
+.button-menu-bar:selected {
+    -fx-background-color: #f8d485;
+    -fx-text-fill: #289920;
+}

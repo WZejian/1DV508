@@ -1,0 +1,32 @@
+
+#name-label {
+  -fx-text-fill: #3e7e2f;
+  -fx-font-size: 15px;
+  -fx-font-weight: bold;
+}
+
+#input-field {
+  -fx-background-color: #f8d485;
+  -fx-background-radius: 12px;
+  -fx-border-color: #3e7e2f;
+  -fx-border-width: 3px;
+  -fx-border-radius: 10px;
+  -fx-font-size: 15px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #3e7e2f;
+}
+
+#text-area-field {
+  -fx-background-color: #3e7e2f;
+  -fx-background-radius: 5px;
+  -fx-border-color: #3e7e2f;
+  -fx-border-width: 3px;
+  -fx-border-radius: 15px;
+  -fx-text-fill: #3e7e2f;
+  -fx-font-size: 15px;
+  -fx-font-weight: bold;
+}
+
+#text-area-field .content {
+  -fx-background-color: #f8d485;
+}

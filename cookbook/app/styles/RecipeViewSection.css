@@ -1,0 +1,15 @@
+
+#title-label {
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+  -fx-font-size: 30px;
+}
+
+#content-box {
+  /* -fx-background-color: #f8d485; */
+  -fx-background-color: rgba(248, 212, 133, 0.7);
+  -fx-background-radius: 10px;
+  -fx-border-width: 3px;
+  -fx-border-color: #3e7e2f;
+  -fx-border-radius: 10px;
+}

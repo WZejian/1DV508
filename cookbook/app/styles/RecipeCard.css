@@ -1,0 +1,29 @@
+#root {
+    -fx-background-color: #f8d485;
+    -fx-background-radius: 15px;
+    -fx-border-color: #3e7e2f;
+    -fx-border-width: 7 7 7 7;
+    -fx-border-radius: 10px;
+}
+
+#recipe-label {
+    -fx-text-fill: #f8d485; 
+    -fx-font-size: 16px; 
+    -fx-font-weight: bold;
+}
+
+#tag {
+    -fx-text-fill: #3e7e2f;
+    -fx-font-size: 16px; 
+    -fx-font-weight: bolder;
+}
+
+#Author {
+    -fx-text-fill: #3e7e2f;
+    -fx-font-size: 16px; 
+    -fx-font-weight: normal;
+}
+
+#name-box {
+    -fx-background-color: #3e7e2f;
+}

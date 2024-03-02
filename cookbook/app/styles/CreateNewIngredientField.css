@@ -1,0 +1,42 @@
+.text-field {
+  -fx-background-color: #f8d485;
+  -fx-prompt-text-fill: #3e7e2f;
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+}
+
+.combo-box {
+  -fx-background-color: #135131;
+}
+
+.combo-box .list-cell {
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+}
+
+.combo-box .list-view .list-cell {
+  -fx-background-color: #f8d485;
+  -fx-text-fill: #3e7e2f;
+  -fx-font-weight: bold;
+}
+
+.combo-box .list-view .list-cell:hover {
+  -fx-background-color: #135131;
+  -fx-text-fill: #f8d485;
+}
+
+.button {
+  -fx-background-color: #135131;
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+}
+
+.button:hover {
+  -fx-background-color: #103f27;
+}
+
+#name-label {
+  -fx-text-fill: #f8d485;
+  -fx-font-weight: bold;
+  -fx-font-size: 15px;
+}
